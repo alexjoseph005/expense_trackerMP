@@ -1,0 +1,23 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "Expense Tracker Backend - MERN Stack",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@clerk/express": "^1.7.81",
+    "axios": "^1.18.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "mongoose": "^8.24.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
