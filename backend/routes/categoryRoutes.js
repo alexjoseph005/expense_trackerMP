@@ -9,7 +9,7 @@ import { getCategories, createCategory, updateCategory, deleteCategory } from ".
 
 const router = express.Router();
 
-router.use(requireAuth);
+//router.use(requireAuth);
 router.route("/").get(getCategories).post(createCategory);
 router.route("/:id").put(updateCategory).delete(deleteCategory);
 
