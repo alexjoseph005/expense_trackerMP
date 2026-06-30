@@ -15,7 +15,7 @@ import {
 
 const router = express.Router();
 
-router.use(requireAuth); // All routes below are protected
+//router.use(requireAuth); // All routes below are protected
 
 router.route("/").get(getTransactions).post(createTransaction);
 router.route("/:id").put(updateTransaction).delete(deleteTransaction);
